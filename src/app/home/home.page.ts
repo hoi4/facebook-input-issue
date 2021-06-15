@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
   constructor() {}
 
+  onInputChange(event: any) {
+    console.log(`##### INPUT CHANGE #####`);
+    console.log(event);
+  }
 }
