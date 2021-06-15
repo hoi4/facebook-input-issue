@@ -1,5 +1,7 @@
 {
   "name": "facebook-input-issue",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
